@@ -9,6 +9,7 @@ import delivery from './../assets/Home/fast-delivery.png'
 import money from './../assets/Home/money.png'
 import lock from './../assets/Home/lock.png'
 import call from './../assets/Home/call.png'
+import banner from './../assets/Home/banner.png'
 import ProductHome from '../components/ProductHome'
 
 
@@ -109,6 +110,19 @@ function Home() {
                     <span className='font-normal text-sm text-[#6C7275]'>Phone and Email support</span>
                   </div>
               </div>
+            </section>
+            <section className='my-5 pb-5 flex flex-col lg:flex-row gap-0'>
+                <img src={banner}/>
+                <div className='bg-[#F3F5F7] py-[40px] px-[32px]  lg:px-[80px] w-full flex flex-col justify-center gap-10'>
+                  <div className=' flex flex-col justify-between gap-3 lg:gap-5'>
+                    <p className='text-[#377DFF] text-md lg:text-xl font-semibold'>SALE UP TO 35% OFF</p>
+                    <p className='text-[#141718] text-3xl lg:text-5xl font-semibold'>HUNDREDS of<br/> New lower prices!</p>
+                    <p className='text-[#121212] text-lg lg:text-2xl font-normal'>It’s more affordable than ever to give every<br/> room in your home a stylish makeover</p>
+                  </div>
+                  <div className=''>
+                    <p className='text-md lg:text-xl flex gap-2 font-semibold border-b-[1px] border-b-[#141718] w-max'>Shop now <img src={blackarrow} /></p>
+                  </div>
+                </div>
             </section>
     </div>
   )
